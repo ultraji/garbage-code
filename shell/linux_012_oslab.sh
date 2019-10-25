@@ -95,7 +95,7 @@ function onCtrlC () {
 
 echo " 须知"
 echo "     1. 该脚本仅适用于ubuntu（64bit，>=14.04） "
-echo "     2. 请根据https://ultraji.xyz/categories/kernel/linux0-12/bochs_gdb_page_fault.html，修改 "
+echo "     2. 请根据https://ultraji.xyz/2019/03/bochs_gdb_page_fault.html，修改 "
 echo "        下载的bochs-2.6.9源码并重新执行该脚本"
 echo "脚本将完成以下两件事："
 echo "     1. 为系统安装相应的编译环境（make，bin86，gcc-3.4，gcc-multilib）"

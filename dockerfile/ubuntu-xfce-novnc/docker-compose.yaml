@@ -1,0 +1,13 @@
+version: "2"
+services:
+  ubuntu-novnc-xfce:
+    build: .
+    image: ubuntu-xfce-novnc
+    container_name: ubuntu-xfce-novnc
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 6080:6080
+    tty: true
+    stdin_open: true
+    restart: unless-stopped 

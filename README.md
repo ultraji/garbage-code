@@ -11,6 +11,10 @@
 1. [base64](c/base64) base64编解码
 2. [matrix](c/matrix) 矩阵运算库
 
+## cpp
+
+1. [PAT](cpp/PAT) 浙江大学PAT题解
+
 ## Shell
 
 1. [linux.012-oslab](shell/linux.012-oslab) 在ubuntu系统下安装linux0.12 oslab所需的环境。

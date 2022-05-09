@@ -1,0 +1,17 @@
+version: "2"
+services:
+  lychee:
+    build: .
+    image: lychee
+    container_name: lychee
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+    volumes:
+      - /www/lychee/uploads:/var/www/lychee/uploads/
+      - /www/lychee/data:/var/www/lychee/data/
+      - /www/lychee/mysql/:/var/lib/mysql
+    ports:
+      - 8080:80
+    restart: unless-stopped 

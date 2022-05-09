@@ -1,0 +1,1 @@
+利用github仓库的webhook功能，自动化部署hexo博客

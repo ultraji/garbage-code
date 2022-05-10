@@ -1,8 +1,26 @@
+// two-pointers, hashmap
 pub struct Solution{}
 
+// impl Solution {
+//     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
+//         nums.dedup();
+//         nums.len() as i32
+//     }
+// }
+
+
+use std::collections::HashMap;
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
-        nums.dedup();
+        let mut map = HashMap::new();
+        nums.retain(|&x| {
+            if let Some(_) = map.get(&x) {
+                return false;
+            } else {
+                map.insert(x, true);
+                return true;
+            }
+        });
         nums.len() as i32
     }
 }

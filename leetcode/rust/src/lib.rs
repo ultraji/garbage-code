@@ -9,3 +9,5 @@ mod s0035;
 mod s0053;
 mod s0058;
 mod s0066;
+mod s0067;
+mod s0070;

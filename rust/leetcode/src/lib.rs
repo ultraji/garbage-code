@@ -1,5 +1,8 @@
 mod s0001;
 mod s0002;
+mod s0003;
+mod s0004;
+mod s0006;
 mod s0009;
 mod s0013;
 mod s0020;

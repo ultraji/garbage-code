@@ -1,4 +1,5 @@
-// 滑动窗口 | hash
+// 3. 无重复字符的最长子串
+// hash-table|two-pointers|string|sliding-window
 pub struct Solution{}
 
 // code start

@@ -1,3 +1,5 @@
+// 263. 丑数
+// 
 pub struct Solution{}
 
 // code start

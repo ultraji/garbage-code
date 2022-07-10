@@ -1,3 +1,5 @@
+// 27. 移除元素
+// 
 pub struct Solution{}
 
 // code start

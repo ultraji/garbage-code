@@ -1,3 +1,5 @@
+// 67. 二进制求和
+// 
 pub struct Solution{}
 
 // code start

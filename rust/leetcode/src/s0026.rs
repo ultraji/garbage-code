@@ -1,4 +1,5 @@
-// two-pointers, hashmap
+// 26. 删除有序数组中的重复项
+// two-pointers|hashmap
 pub struct Solution{}
 
 // impl Solution {

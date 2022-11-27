@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "hello_world",
+    "cargo_doc",
+    "scrape_url",
+    "minigrep",
+    "closures",
+]

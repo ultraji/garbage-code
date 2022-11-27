@@ -1,6 +1,6 @@
 [workspace]
 
 members = [
-    "scrape_url",
+    "test_code",
     "httpie",
 ]

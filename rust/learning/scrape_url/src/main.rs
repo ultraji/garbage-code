@@ -1,7 +1,13 @@
 use std::fs;
 
-fn main() {
-    let url = "https://www.rust-lang.org/";
+//cargo run --bin scrape_url_homework -- "https://www.rust-lang.org/"
+fn main(){
+    let args: Vec<String> = std::env::args().collect();
+    if args.len() < 2 {
+        panic!("please input a url!")
+    }
+
+    let url = args.get(1).unwrap();
     let output = "rust.md";
 
     println!("Fetching url: {}", url);

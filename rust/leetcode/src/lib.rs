@@ -22,3 +22,4 @@ mod s0263;
 mod s0374;
 mod s0575;
 mod s0953;
+mod s1774;

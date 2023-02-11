@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=22 lang=golang
@@ -6,8 +6,6 @@ package main
  * [22] 括号生成
  */
 // backtracking
-
-import "fmt"
 
 // @lc code=start
 func generateParenthesis(n int) []string {
@@ -38,7 +36,3 @@ func generateParenthesis(n int) []string {
 }
 
 // @lc code=end
-
-func main() {
-	fmt.Println(generateParenthesis(3))
-}

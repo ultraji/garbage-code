@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=4 lang=golang
@@ -7,10 +7,7 @@ package main
  */
 // binary-search|divide-and-conquer
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
 // @lc code=start
 func max(a, b int) int {
@@ -65,8 +62,3 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(findMedianSortedArrays([]int{3}, []int{-2, -1}))
-	fmt.Println(findMedianSortedArrays([]int{1, 3}, []int{2}))
-	fmt.Println(findMedianSortedArrays([]int{1, 2}, []int{3, 4}))
-}

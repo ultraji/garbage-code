@@ -1,10 +1,11 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=14 lang=golang
  *
  * [14] 最长公共前缀
  */
+//
 
 // @lc code=start
 func min(x, y int) int {
@@ -38,5 +39,5 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return p
 }
-// @lc code=end
 
+// @lc code=end

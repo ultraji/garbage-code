@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=18 lang=golang
@@ -7,10 +7,7 @@ package main
  */
 // hash-table|two-pointers
 
-import (
-	"fmt"
-	"sort"
-)
+import "sort"
 
 // @lc code=start
 func fourSum(nums []int, target int) [][]int {
@@ -45,6 +42,3 @@ func fourSum(nums []int, target int) [][]int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(fourSum([]int{1, 0, -1, 0, -2, 2}, 0))
-}

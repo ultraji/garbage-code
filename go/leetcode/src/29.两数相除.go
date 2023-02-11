@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=29 lang=golang
@@ -7,10 +7,7 @@ package main
  */
 // binary-search
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
 // @lc code=start
 func divide(dividend int, divisor int) int {
@@ -41,6 +38,3 @@ func divide(dividend int, divisor int) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(divide(-2147483648, -1))
-}

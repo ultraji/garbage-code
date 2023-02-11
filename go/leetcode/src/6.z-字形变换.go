@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=6 lang=golang

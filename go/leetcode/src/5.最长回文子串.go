@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=5 lang=golang
@@ -6,10 +6,6 @@ package main
  * [5] 最长回文子串
  */
 // string|dynamic-programming|manacher
-
-import (
-	"fmt"
-)
 
 // @lc code=start
 func longestPalindrome(s string) string {
@@ -38,8 +34,8 @@ func longestPalindrome(s string) string {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(longestPalindrome("aaaa"))
-	fmt.Println(longestPalindrome("babad"))
-	fmt.Println(longestPalindrome("cbbd"))
-}
+// func main() {
+// 	fmt.Println(longestPalindrome("aaaa"))
+// 	fmt.Println(longestPalindrome("babad"))
+// 	fmt.Println(longestPalindrome("cbbd"))
+// }

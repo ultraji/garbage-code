@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=17 lang=golang
@@ -6,8 +6,6 @@ package main
  * [17] 电话号码的字母组合
  */
 // string|backtracking
-
-import "fmt"
 
 // @lc code=start
 func letterCombinations(digits string) []string {
@@ -35,6 +33,3 @@ func letterCombinations(digits string) []string {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(letterCombinations("23"))
-}

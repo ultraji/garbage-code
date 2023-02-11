@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=27 lang=golang
@@ -6,8 +6,6 @@ package main
  * [27] 移除元素
  */
 // two-pointers
-
-import "fmt"
 
 // @lc code=start
 func removeElement(nums []int, val int) int {
@@ -23,6 +21,3 @@ func removeElement(nums []int, val int) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(removeElement([]int{0, 1, 2, 3, 4, 3, 5}, 3))
-}

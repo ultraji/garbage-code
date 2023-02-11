@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=19 lang=golang
@@ -18,7 +18,7 @@ package main
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	newHead := &ListNode{0, head}
 	p1, p2 := newHead, newHead
-	for ; n > 0 && p2.Next != nil ; n-- {
+	for ; n > 0 && p2.Next != nil; n-- {
 		p2 = p2.Next
 	}
 	for p2.Next != nil {
@@ -29,5 +29,5 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	}
 	return newHead.Next
 }
-// @lc code=end
 
+// @lc code=end

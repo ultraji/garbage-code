@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=10 lang=golang
@@ -6,8 +6,6 @@ package main
  * [10] 正则表达式匹配
  */
 // string|dynamic-programming|backtracking
-
-import "fmt"
 
 // 递归截止条件：
 // 1. 字符串字面量相等（ s == p 或 len(s) == len(p) == 1 && p[0] == '.'），返回true
@@ -47,12 +45,3 @@ func isMatch(s string, p string) bool {
 }
 
 // @lc code=end
-
-func main() {
-	fmt.Println(isMatch("aa", "a"))
-	fmt.Println(isMatch("aa", "a*"))
-	fmt.Println(isMatch("aa", ".*"))
-	fmt.Println(isMatch("aab", "c*a*b"))
-	fmt.Println(isMatch("mississippi", "mis*is*p*."))
-	fmt.Println(isMatch("mississippi", "mis*is*ip*."))
-}

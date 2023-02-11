@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=26 lang=golang
@@ -6,8 +6,6 @@ package main
  * [26] 删除排序数组中的重复项
  */
 // two-pointers
-
-import "fmt"
 
 // @lc code=start
 func removeDuplicates(nums []int) int {
@@ -26,6 +24,3 @@ func removeDuplicates(nums []int) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(removeDuplicates([]int{0, 1, 1, 2, 3, 4}))
-}

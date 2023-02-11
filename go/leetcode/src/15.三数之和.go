@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=15 lang=golang
@@ -7,10 +7,7 @@ package main
  */
 // two-pointers
 
-import (
-	"fmt"
-	"sort"
-)
+import "sort"
 
 // @lc code=start
 func threeSum(nums []int) [][]int {
@@ -40,6 +37,3 @@ func threeSum(nums []int) [][]int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(threeSum([]int{-1, 0, 1, 2, -1, -4}))
-}

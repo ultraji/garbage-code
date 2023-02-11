@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=20 lang=golang
@@ -6,8 +6,6 @@ package main
  * [20] 有效的括号
  */
 // stack
-
-import "fmt"
 
 // @lc code=start
 func isValid(s string) bool {
@@ -37,6 +35,3 @@ func isValid(s string) bool {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(isValid("[](){}"))
-}

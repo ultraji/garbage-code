@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=1 lang=golang
@@ -6,8 +6,6 @@ package main
  * [1] 两数之和
  */
 // hash-table
-
-import "fmt"
 
 // @lc code=start
 func twoSum(nums []int, target int) []int {
@@ -22,7 +20,3 @@ func twoSum(nums []int, target int) []int {
 }
 
 // @lc code=end
-
-func main() {
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
-}

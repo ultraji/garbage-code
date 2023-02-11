@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=21 lang=golang
@@ -29,10 +29,10 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	if l1 != nil {
 		p.Next = l1
-	}else if l2 != nil {
+	} else if l2 != nil {
 		p.Next = l2
 	}
 	return newHead.Next
 }
-// @lc code=end
 
+// @lc code=end

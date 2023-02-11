@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=35 lang=golang
@@ -6,8 +6,6 @@ package main
  * [35] 搜索插入位置
  */
 // binary-search
-
-import "fmt"
 
 // @lc code=start
 func searchInsert(nums []int, target int) int {
@@ -20,6 +18,6 @@ func searchInsert(nums []int, target int) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(searchInsert([]int{1, 2, 3, 4, 5, 6, 7}, 6))
-}
+// func main() {
+// 	fmt.Println(searchInsert([]int{1, 2, 3, 4, 5, 6, 7}, 6))
+// }

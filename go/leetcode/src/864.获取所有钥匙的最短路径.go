@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=864 lang=golang
@@ -6,8 +6,6 @@ package main
  * [864] 获取所有钥匙的最短路径
  */
 // dynamic-programming|breadth-first-search
-
-import "fmt"
 
 // @lc code=start
 type Element interface{}
@@ -98,6 +96,3 @@ func shortestPathAllKeys(grid []string) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(shortestPathAllKeys([]string{"@.a.#", "###.#", "b.A.B"}))
-}

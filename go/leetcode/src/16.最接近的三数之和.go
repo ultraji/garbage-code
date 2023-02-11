@@ -1,4 +1,4 @@
-package main
+package src
 
 /*
  * @lc app=leetcode.cn id=16 lang=golang
@@ -8,7 +8,6 @@ package main
 // two-pointers
 
 import (
-	"fmt"
 	"math"
 	"sort"
 )
@@ -37,6 +36,3 @@ func threeSumClosest(nums []int, target int) int {
 }
 
 // @lc code=end
-func main() {
-	fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1))
-}
